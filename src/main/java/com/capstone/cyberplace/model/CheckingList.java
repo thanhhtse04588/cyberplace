@@ -1,6 +1,6 @@
 package com.capstone.cyberplace.model;
 
-import java.sql.Timestamp;
+import java.sql.Date;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -22,13 +22,21 @@ public class CheckingList {
 	private int placeID;
 
 	@Column(name = "date_time")
-	private Timestamp dateTime;
+	private Date dateTime;
 
 	@Column(name = "checking_status_id")
 	private int checkingStatusID;
 
 	public CheckingList() {
 		// TODO Auto-generated constructor stub
+	}
+
+	public CheckingList(int checkingID, int placeID, Date dateTime, int checkingStatusID) {
+		super();
+		this.checkingID = checkingID;
+		this.placeID = placeID;
+		this.dateTime = dateTime;
+		this.checkingStatusID = checkingStatusID;
 	}
 
 	public int getCheckingID() {
@@ -47,11 +55,11 @@ public class CheckingList {
 		this.placeID = placeID;
 	}
 
-	public Timestamp getDateTime() {
+	public Date getDateTime() {
 		return dateTime;
 	}
 
-	public void setDateTime(Timestamp dateTime) {
+	public void setDateTime(Date dateTime) {
 		this.dateTime = dateTime;
 	}
 
