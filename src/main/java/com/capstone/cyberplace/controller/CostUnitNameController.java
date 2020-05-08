@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.capstone.cyberplace.model.CostUnitName;
 import com.capstone.cyberplace.service.impl.CostUnitNameServiceImpl;
 
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "*")
 @RestController
 @RequestMapping("/costunitname")
 public class CostUnitNameController {

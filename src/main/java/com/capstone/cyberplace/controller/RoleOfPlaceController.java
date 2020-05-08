@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.capstone.cyberplace.model.RoleOfPlace;
 import com.capstone.cyberplace.service.impl.RoleOfPlaceServiceImpl;
 
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "*")
 @RestController
 @RequestMapping("/roleofplace")
 public class RoleOfPlaceController {

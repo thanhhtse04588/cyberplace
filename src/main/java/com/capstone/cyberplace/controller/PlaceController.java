@@ -58,7 +58,7 @@ import com.capstone.cyberplace.service.impl.StatusPlaceServiceImpl;
 import com.capstone.cyberplace.service.impl.StreetDBServiceImpl;
 import com.capstone.cyberplace.service.impl.WardDBServiceImpl;
 
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "*")
 @RestController
 @RequestMapping("/api/cp")
 public class PlaceController {

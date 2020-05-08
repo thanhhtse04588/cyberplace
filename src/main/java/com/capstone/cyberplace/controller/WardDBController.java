@@ -14,7 +14,7 @@ import com.capstone.cyberplace.dto.WardData;
 import com.capstone.cyberplace.model.WardDB;
 import com.capstone.cyberplace.service.impl.WardDBServiceImpl;
 
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "*")
 @RestController
 @RequestMapping("/warddb")
 public class WardDBController {

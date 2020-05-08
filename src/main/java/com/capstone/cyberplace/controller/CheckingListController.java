@@ -42,7 +42,7 @@ import com.capstone.cyberplace.service.impl.UserDetailServiceImpl;
  * @author admin
  *
  */
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "*")
 @RestController
 @RequestMapping("/checkinglist")
 public class CheckingListController {

@@ -17,7 +17,7 @@ import com.capstone.cyberplace.model.StatusPlace;
 import com.capstone.cyberplace.service.impl.PlaceServiceImpl;
 import com.capstone.cyberplace.service.impl.StatusPlaceServiceImpl;
 
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "*")
 @RestController
 @RequestMapping("/managepost")
 public class ManagePostController {

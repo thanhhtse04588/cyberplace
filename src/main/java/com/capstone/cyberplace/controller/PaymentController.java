@@ -24,7 +24,7 @@ import com.capstone.cyberplace.service.impl.PaymentServiceImpl;
 import com.capstone.cyberplace.service.impl.PlaceServiceImpl;
 import com.capstone.cyberplace.service.impl.UserDetailServiceImpl;
 
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "*")
 @RestController
 @RequestMapping("/payment")
 public class PaymentController {

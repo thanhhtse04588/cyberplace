@@ -25,7 +25,7 @@ import com.capstone.cyberplace.model.User;
 import com.capstone.cyberplace.service.impl.UserDetailServiceImpl;
 import com.capstone.cyberplace.service.impl.UserServiceImpl;
 
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "*")
 @RestController
 @RequestMapping("/user")
 public class UserController {

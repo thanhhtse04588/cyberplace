@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.capstone.cyberplace.model.DistrictDB;
 import com.capstone.cyberplace.service.impl.DistrictDBServiceImpl;
 
-@CrossOrigin(origins = "http://localhost:4200")	
+@CrossOrigin(origins = "*")	
 @RestController
 @RequestMapping("/districtdb")
 public class DistrictDBController {

@@ -20,7 +20,7 @@ import com.capstone.cyberplace.service.impl.ContractStatusServiceImpl;
 import com.capstone.cyberplace.service.impl.PlaceServiceImpl;
 import com.capstone.cyberplace.service.impl.StatusPlaceServiceImpl;
 
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "*")
 @RestController
 @RequestMapping("/managecontract")
 public class ManageContractController {
