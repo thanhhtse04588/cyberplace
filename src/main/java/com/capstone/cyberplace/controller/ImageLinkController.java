@@ -20,7 +20,7 @@ import org.springframework.web.multipart.MultipartFile;
 import com.capstone.cyberplace.service.GoogleDriveApiService;
 import com.capstone.cyberplace.service.impl.ImageLinkServiceImpl;
 
-@CrossOrigin(origins = "*")
+@CrossOrigin(origins = "https://34.92.85.142:5000")
 @RestController
 @RequestMapping("/imagelink")
 public class ImageLinkController {

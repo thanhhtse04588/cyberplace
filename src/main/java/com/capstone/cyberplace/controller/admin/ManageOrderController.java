@@ -22,7 +22,7 @@ import com.capstone.cyberplace.service.impl.PlaceServiceImpl;
 import com.capstone.cyberplace.service.impl.StatusPlaceServiceImpl;
 import com.capstone.cyberplace.service.impl.UserDetailServiceImpl;
 
-@CrossOrigin(origins = "*")
+@CrossOrigin(origins = "https://34.92.85.142:5000")
 @RestController
 @RequestMapping("/manageorder")
 public class ManageOrderController {
