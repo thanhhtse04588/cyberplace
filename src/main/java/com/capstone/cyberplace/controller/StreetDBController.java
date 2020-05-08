@@ -14,7 +14,7 @@ import com.capstone.cyberplace.dto.StreetData;
 import com.capstone.cyberplace.model.StreetDB;
 import com.capstone.cyberplace.service.impl.StreetDBServiceImpl;
 
-@CrossOrigin(origins = "https://34.92.85.142:5000")
+@CrossOrigin(origins = "http://34.92.85.142:5000")
 @RestController
 @RequestMapping("/street")
 public class StreetDBController {

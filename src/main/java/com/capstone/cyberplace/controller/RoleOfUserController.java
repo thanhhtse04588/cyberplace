@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.capstone.cyberplace.model.RoleOfUser;
 import com.capstone.cyberplace.service.impl.RoleOfUserServiceImpl;
 
-@CrossOrigin(origins = "https://34.92.85.142:5000")
+@CrossOrigin(origins = "http://34.92.85.142:5000")
 @RestController
 @RequestMapping("/role")
 public class RoleOfUserController {

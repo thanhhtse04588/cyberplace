@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.capstone.cyberplace.dto.form.InsertedUserDetailForm;
 import com.capstone.cyberplace.service.impl.UserDetailServiceImpl;
 
-@CrossOrigin(origins = "https://34.92.85.142:5000")
+@CrossOrigin(origins = "http://34.92.85.142:5000")
 @RestController
 @RequestMapping("/userdetail")
 public class UserDetailController {

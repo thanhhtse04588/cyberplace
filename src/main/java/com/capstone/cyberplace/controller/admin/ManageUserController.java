@@ -25,7 +25,7 @@ import com.capstone.cyberplace.service.impl.StatusOfUserServiceImpl;
 import com.capstone.cyberplace.service.impl.UserDetailServiceImpl;
 import com.capstone.cyberplace.service.impl.UserServiceImpl;
 
-@CrossOrigin(origins = "https://34.92.85.142:5000")
+@CrossOrigin(origins = "http://34.92.85.142:5000")
 @RestController
 @RequestMapping("/manageuser")
 public class ManageUserController {

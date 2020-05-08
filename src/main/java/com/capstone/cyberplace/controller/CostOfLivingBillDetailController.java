@@ -27,7 +27,7 @@ import com.capstone.cyberplace.service.impl.CostOfLivingBillServiceImpl;
 import com.capstone.cyberplace.service.impl.CostOfPlaceServiceImpl;
 import com.capstone.cyberplace.service.impl.CostUnitNameServiceImpl;
 
-@CrossOrigin(origins = "https://34.92.85.142:5000")
+@CrossOrigin(origins = "http://34.92.85.142:5000")
 @RestController
 @RequestMapping("/costofliving")
 public class CostOfLivingBillDetailController {
