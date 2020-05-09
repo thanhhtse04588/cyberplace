@@ -23,6 +23,4 @@ public interface CostOfLivingBillService {
 	void changeStatus(int paymentStatusId, int colID);
 
 	void updateCashPaidLinkByColID(String cashPaidLink, int colID);
-
-	List<CostOfLivingBill> getAllBillBeforeEndMonthByContractID(int number, int contractID);
 }
